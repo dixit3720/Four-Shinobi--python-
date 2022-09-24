@@ -68,7 +68,7 @@ def plottingGraph():
     plt.plot(dZ,color='b')
     plt.legend(["x","y","z"])
     plt.title("Displacement",loc="right")
-    plt.ylabel("m/s")
+    plt.ylabel("m")
     plt.xlabel("t")
     plt.grid()
 
