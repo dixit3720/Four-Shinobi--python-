@@ -1,11 +1,10 @@
 # Four Shinobi (python)
  Plotting graph of Acceleration , Velocity and Displacement using ADXL345 and Python
 
-We are focused on sending data from the Arduino to computer over serial connection, and then plotting it with Python.
-The Python portion is not simple as the Arduino's one. We uesd custom class to handle the data from Arduino and then use matplotlib to plot the graphs in real time.In order to send/retrieve data, we require another package called pySerial.
+Our team focuses on sending data from the ADXL345 sensor via Arduino to computer with the help 0f I2C serial connection, and then plotting the respective graphs using Python.
+The Python code is not as simple as the Arduino's serial plotter.Hence, we uesd custom modules to handle the data from Arduino IDE and then used matplotlib library to plot the graphs in real time.In order to send/retrieve data, we required another package called pySerial.
 Installation instruction for pySerial :
  pip install pyserial
 
-We are going to deal with the Serial data and plotting separately.In order to plot real time data, we have to read data(most updated values) as fast as possible.
-In this python code, we are taking few finite inputs and plotting it. But we can also read continuous data and real time plotting also can be done using while loop or thread concept.
-Python code is given for plotting of Acceleration, Velocity and Displacement in all three direction.
+In this problem we dealt with plotting as well as redistribution of real time data.
+Continuous data serialization can be achieved using an infinite while loop or using thread concept.
